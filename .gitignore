@@ -1,0 +1,23 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.userprefs
+.idea/
+
+## Secrets — never commit
+**/appsettings.*.json
+!**/appsettings.json
+!**/appsettings.Development.json
+**/secrets.json
+
+## Node / React
+ui/munters-giphy-ui/node_modules/
+ui/munters-giphy-ui/dist/
+ui/munters-giphy-ui/.env.local
+
+## OS
+.DS_Store
+Thumbs.db
