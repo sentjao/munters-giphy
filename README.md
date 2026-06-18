@@ -135,4 +135,3 @@ All settings live under the `Giphy` key in `appsettings.json`. Override any valu
 | Cross-page drift | Independently cached pages can overlap or miss an item as GIPHY rankings shift. Acceptable for ephemeral trending/search data. |
 | Country / region | Not implemented. A TODO is marked in `IGifProvider`. Would become part of the request and cache key when introduced. |
 | Retries / circuit breaker | Not included (retries multiply paid GIPHY calls). Named as a production enhancement. |
-| Eager refresh | A background pre-warm was considered and rejected: a GIPHY beta key allows 100 calls/hour and a poller would exhaust that with zero users. |

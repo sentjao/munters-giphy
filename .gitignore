@@ -3,9 +3,12 @@ bin/
 obj/
 *.user
 *.suo
+*.slnx
 .vs/
+.vscode/
 *.userprefs
 .idea/
+.claude/
 
 ## Secrets — never commit
 **/appsettings.*.json
